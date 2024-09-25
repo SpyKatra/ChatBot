@@ -14,7 +14,8 @@ button { padding: 10px 20px; cursor: pointer; background-color: #f44336; color: 
 <h1>Messages contenant '!call'</h1>
 <button id='deleteButton' onclick='supprimerTousLesMessages()' disabled>Supprimer tous les messages</button>
 <ul>
-<li><strong>2024-09-24 20:41:43 - TidyLabs ::</strong> !call wanted</li>
+<li><strong>2024-09-24 20:57:15 - SpyBot ::</strong> !call wanted</li>
+<li><strong>2024-09-24 20:57:16 - SpyBot ::</strong> !call</li>
 </ul>
 
         <script>
@@ -26,7 +27,7 @@ button { padding: 10px 20px; cursor: pointer; background-color: #f44336; color: 
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     console.log("Tous les messages ont été supprimés.");
-                    location.reload();  // Recharger la page après suppression
+                    location.reload();
                 } else if (xhr.readyState == 4) {
                     console.log("Erreur lors de la suppression des messages.");
                 }
