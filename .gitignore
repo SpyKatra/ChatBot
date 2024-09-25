@@ -1,1 +1,4 @@
-echo "Push_git.py" >> .gitignore
+Clear_Call.py
+Push_git.py
+"Clear_Call.py" 
+"Push_git.py" 
